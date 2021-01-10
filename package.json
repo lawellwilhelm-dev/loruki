@@ -1,0 +1,19 @@
+{
+  "name": "loruki",
+  "version": "1.0.0",
+  "description": "Cloud hosting platform",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server --browser=firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawellwilhelm-dev/loruki.git"
+  },
+  "author": "Lawell Wilhelm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lawellwilhelm-dev/loruki/issues"
+  },
+  "homepage": "https://github.com/lawellwilhelm-dev/loruki#readme"
+}

@@ -40,7 +40,7 @@ img {
 }
 
 
-/* Utilities */
+/* Utilities Start */
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -63,8 +63,20 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin: 10px;
+
+    color: #333;
+}
+
+/* Utilities End */
 
 /* Navbar */
 .navbar {
@@ -105,6 +117,8 @@ img {
 .showcase .grid {
     grid-template-columns: 55% 45%;
     gap: 30px;
+
+    overflow: visible;
 }
 
 .showcase h1 {
@@ -113,4 +127,33 @@ img {
 
 .showcase p {
     margin: 20px 0;
+}
+
+.showcase-form {
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+
+    position: relative;
+    top: 60px;
+}
+
+.showcase-form .form-control {
+    margin: 30px 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+    width: 100%;
+    padding: 3px;
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+
+    font-size: 16px;
+    
+}
+
+.showcase-form input:focus {
+    outline: none;
 }

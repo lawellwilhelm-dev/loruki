@@ -76,6 +76,27 @@ img {
     color: #333;
 }
 
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+
+    color: #fff;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
 /* Utilities End */
 
 /* Navbar */

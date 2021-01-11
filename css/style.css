@@ -178,3 +178,17 @@ img {
 .showcase-form input:focus {
     outline: none;
 }
+
+.showcase::before,
+.showcase::after {
+    content: "";
+    height: 100px;
+    background-color: #fff;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+
+    transform: skewY(-3deg);
+}

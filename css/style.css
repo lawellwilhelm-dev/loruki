@@ -66,6 +66,10 @@ img {
     align-items: center;
 }
 
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .card {
     background-color: #fff;
     border-radius: 10px;
@@ -191,4 +195,9 @@ img {
     bottom: -70px;
 
     transform: skewY(-3deg);
+}
+
+/* Stats */
+.stats {
+    padding-top: 100px;
 }

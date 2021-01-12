@@ -192,3 +192,7 @@ img {
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+.footer .social a {
+    margin: 0 10px;
+}
